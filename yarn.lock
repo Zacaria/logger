@@ -3130,10 +3130,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-connect@workspace:packages/connect"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3141,11 +3141,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-file@workspace:packages/file"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     streamroller: ^3.1.3
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3153,11 +3153,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-insight@workspace:packages/insight"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     r7insight_node: 3.2.1
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3165,11 +3165,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-logentries@workspace:packages/logentries"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     le_node: ^1.8.0
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3177,12 +3177,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-loggly@workspace:packages/loggly"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     "@types/node-loggly-bulk": ^2.2.1
     node-loggly-bulk: ^3.0.1
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3190,12 +3190,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-logstash-http@workspace:packages/logstash-http"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     axios: 0.27.2
     axios-retry: ^3.3.1
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3203,10 +3203,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-logstash-udp@workspace:packages/logstash-udp"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3214,12 +3214,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-rabbitmq@workspace:packages/rabbitmq"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     "@types/amqplib": ^0.8.2
     amqplib: 0.10.3
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3279,11 +3279,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-seq@workspace:packages/seq"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     seq-logging: 1.1.1
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3292,10 +3292,10 @@ __metadata:
   resolution: "@tsed/logger-slack@workspace:packages/slack"
   dependencies:
     "@slack/web-api": ^6.7.0
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
@@ -3303,16 +3303,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/logger-smtp@workspace:packages/smtp"
   dependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
     "@types/nodemailer": 6.4.4
     nodemailer: ^6.7.3
     tslib: 2.3.1
   peerDependencies:
-    "@tsed/logger": 6.3.3
+    "@tsed/logger": 6.3.4
   languageName: unknown
   linkType: soft
 
-"@tsed/logger@6.3.3, @tsed/logger@workspace:packages/logger":
+"@tsed/logger@6.3.4, @tsed/logger@workspace:packages/logger":
   version: 0.0.0-use.local
   resolution: "@tsed/logger@workspace:packages/logger"
   dependencies:
@@ -10809,17 +10809,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-cache-semantics@npm:^4.0.0":
-  version: 4.0.3
-  resolution: "http-cache-semantics@npm:4.0.3"
-  checksum: 63781dd65b767a565af093ebf93f5cd2686577119e8184ee8afd3ab0ad2d60ab07523de8c4e153ccd6c5d7db37608574aa411ad63d756697ed6c4ad925721e6e
-  languageName: node
-  linkType: hard
-
-"http-cache-semantics@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "http-cache-semantics@npm:4.1.0"
-  checksum: 974de94a81c5474be07f269f9fd8383e92ebb5a448208223bfb39e172a9dbc26feff250192ecc23b9593b3f92098e010406b0f24bd4d588d631f80214648ed42
+"http-cache-semantics@npm:^4.0.0, http-cache-semantics@npm:^4.1.0":
+  version: 4.1.1
+  resolution: "http-cache-semantics@npm:4.1.1"
+  checksum: 83ac0bc60b17a3a36f9953e7be55e5c8f41acc61b22583060e8dedc9dd5e3607c823a88d0926f9150e571f90946835c7fe150732801010845c72cd8bbff1a236
   languageName: node
   linkType: hard
 
